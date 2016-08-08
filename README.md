@@ -50,6 +50,10 @@ Shrimp.configure do |config|
   # the zoom factor
   # config.zoom             = 1
 
+  # the dpi.
+  # Set page size (config.format) in pixels equals to viewport size for this to work reliably.
+  # config.dpi              = 150
+
   # the page orientation 'portrait' or 'landscape'
   # config.orientation      = 'portrait'
 
@@ -63,8 +67,8 @@ Shrimp.configure do |config|
   # change the viewport size.  If you rendering pages that have
   # flexible page width and height then you may need to set this
   # to enforce a specific size
-  # config.viewport_width     = 600
-  # config.viewport_height    = 600
+  # config.viewport_width     = 1366
+  # config.viewport_height    = 768
 
   # the timeout for the phantomjs rendering process in ms
   # this needs always to be higher than rendering_time
